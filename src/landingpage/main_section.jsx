@@ -1,17 +1,17 @@
 import timImg from '../assets/timothy-pix.png';
 import timotheousImg from '../assets/Timotheus.png';
 import timotheousImg2 from '../assets/DSC09662 1.png';
-import Project_card from './Cards/Project_card';
+import Project_card from './cards/Project_card';
 import thumbnail from '../assets/Thumbnail.jpg';
-import Experience_card from './Cards/experience_card'
-import Certification_card from './Cards/Certification_card';
+import Experience_card from './cards/experience_card'
+import Certification_card from './cards/Certification_card';
 import figma from '../assets/figma 1.png'
 import photoshop from '../assets/photoshop 1.png'
 import illustrator from '../assets/Frame 36 (1).png'
 import chatgpt from '../assets/chat-gpt 1.png'
 import adobe from '../assets/Frame 36.png'
 import webflow from '../assets/Image 23.png'
-import Booking from './Cards/Booking';
+import Booking from './cards/Booking';
 import { BsWhatsapp } from "react-icons/bs";
 import { AiOutlineFacebook } from "react-icons/ai";
 import { CiLinkedin } from "react-icons/ci";
