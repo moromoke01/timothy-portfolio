@@ -3,7 +3,7 @@ import timotheousImg from '../assets/Timotheus.png';
 import timotheousImg2 from '../assets/DSC09662 1.png';
 import Project_card from './Cards/Project_card';
 import thumbnail from '../assets/Thumbnail.jpg';
-import Experience_card from './Cards/Experience_card'
+import Experience_card from './Cards/experience_card'
 import Certification_card from './Cards/Certification_card';
 import figma from '../assets/figma 1.png'
 import photoshop from '../assets/photoshop 1.png'
