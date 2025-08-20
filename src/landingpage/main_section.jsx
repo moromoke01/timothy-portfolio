@@ -3,7 +3,7 @@ import timotheousImg from '../assets/Timotheus.png';
 import timotheousImg2 from '../assets/DSC09662 1.png';
 import Project_card from './Cards/Project_card';
 import thumbnail from '../assets/Thumbnail.jpg';
-import Experience_card from './Cards/experience_card';
+import Experience_card from './Cards/Experience_card';
 import Certification_card from './Cards/Certification_card';
 import figma from '../assets/figma 1.png'
 import photoshop from '../assets/photoshop 1.png'
@@ -82,38 +82,31 @@ function Main_section() {
   ]
 
   return (
-    <div className="flex flex-col md:flex-row w-full h-full bg-white pb-1 px-4 md:px-8 md:gap-4 overflow-x-hidden">
+    <div className="flex flex-col md:flex-row w-full h-full bg-white pb-1 px-4 md:px-8 md:gap-4 mb-6 overflow-x-hidden">
 
-      {/* side_section */}
-      <div className="w-full md:h-screen md:max-w-1/3 bg-white p-4 md:sticky top-0 flex flex-col items-center justify-center">
-        <div className='max-w-full'>
-          <div className="flex justify-center items-center w-full">
-            <img
-              src={timImg}
-              alt="tim-Img"
-              className="w-70 bg-white rounded-full"
-            />
-          </div>
-
-          <div className='max-w-55 ml-6'>
-            <h2 className="text-xl text-center font-bold mt-4">Hammed Timothy</h2>
-            <p className="text-gray-700 text-center mt-2">
-              Product Designer | Web3 UX • Ultra Minimalist
-            </p>
-
-            <div className="mt-4 text-center text-gray-400">
-              <p>Product designer specializing in Fintech and Web3 UX</p>
-              <div className="icons text-blue-900 flex justify-center gap-3 mt-3 text-3xl md:text-sm">
-                <BsWhatsapp />
-                <AiOutlineFacebook />
-                <CiLinkedin />
-                <FaInstagram />
-                <FaSquareXTwitter />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     {/* side_section */} 
+     <div className="w-full h-screen md:max-w-1/3 bg-white p-4  top-0 flex flex-col items-center justify-center"> 
+       <div className='max-w-full md:fixed'> 
+        <div className="flex justify-center items-center w-full"> 
+          <img src={timImg} alt="tim-Img" className="w-70 bg-white rounded-full" /> 
+        </div> 
+        
+        <div className='max-w-55 ml-6'> 
+           <h2 className="text-xl text-center font-bold mt-4">Hammed Timothy</h2> 
+            <p className="text-gray-700 text-center mt-2"> Product Designer | Web3 UX • Ultra Minimalist </p> 
+            <div className="mt-4 text-center text-gray-400"> 
+              <p>Product designer specializing in Fintech and Web3 UX</p> 
+               <div className="icons text-blue-900 flex justify-center gap-3 mt-3"> 
+                <BsWhatsapp /> 
+                <AiOutlineFacebook /> 
+                <CiLinkedin /> 
+                <FaInstagram /> 
+                <FaSquareXTwitter /> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div>
 
       {/* main section */}
       <div className=' w-full md:max-w-200 h-full mt-0 md:mt-40 md:max-w-3/4 bg-white p-4 pt-0'>
